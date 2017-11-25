@@ -1,0 +1,16 @@
+#title-sec2{
+  /* display: none; */
+  animation: mymove 5s;
+  animation-delay: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px; display:none}
+  to {left: 200px;displat:block}
+}
+
+@keyframes mymove {
+  from {left: 0px;display:none}
+  to {left: 200px;display:block}
+}

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TscSec1Component implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
